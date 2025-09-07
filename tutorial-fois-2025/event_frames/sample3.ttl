@@ -1,0 +1,13 @@
+@prefix log: <file://./log.owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+log:person3 rdf:type log:Person .
+log:hammer1 rdf:type log:Hammer .
+log:contact3 rdf:type log:Contact .
+log:support2 rdf:type log:Support .
+log:motion2 rdf:type log:Motion .
+
+log:contact3 log:hasAgent log:person3 .
+log:contact3 log:hasInstrument log:hammer1 .
+log:contact3 log:hasSupport log:support2 .
+log:contact3 log:hasMotion log:motion2 .
