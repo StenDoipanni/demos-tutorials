@@ -1,0 +1,47 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix framester: <https://w3id.org/framester/schema/> .
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix dfl: <http://www.ease-crc.org/ont/SOMA_DFL.owl#> .
+@prefix affordances_situations: <http://www.W3C.org/khafre/affordances_situations.owl#> .
+
+@prefix log: <file://./log.owl#> .
+
+        
+log:hasAgentParticipant rdf:type owl:ObjectProperty .
+log:hasSupporterParticipant rdf:type owl:ObjectProperty .
+log:hasParticipant rdf:type owl:ObjectProperty .
+log:hasSupportee rdf:type owl:ObjectProperty .
+log:hasSupporter rdf:type owl:ObjectProperty .
+
+log:hasId rdf:type owl:DatatypeProperty .
+
+log:image_2
+    rdf:type owl:NamedIndividual ;
+    rdf:type log:Image ;
+    log:hasId "0.25"^^xsd:string .
+
+log:schematicRelation_6
+    rdf:type owl:NamedIndividual ;
+    log:hasParticipant log:person_2 ;
+    log:hasParticipant log:person_3 ;
+    rdf:type log:Departure ;
+    log:eventMode log:Ended .
+
+log:schematicRelation_8
+    rdf:type owl:NamedIndividual ;
+    log:hasParticipant log:person_2 ;
+    log:hasParticipant log:person_3 ;
+    rdf:type log:Approach ;
+    log:eventMode log:Started .
+
+log:boat_1 rdf:type owl:NamedIndividual ;
+    rdf:type log:boat .
+log:person_2 rdf:type owl:NamedIndividual ;
+    rdf:type log:person .
+log:person_3 rdf:type owl:NamedIndividual ;
+    rdf:type log:person .
+
