@@ -18,3 +18,4 @@ This tutorial demonstrates knowledge enrichment of the Khafre pipeline using RDF
 ## Useful Resources
 
 Py_AMR2FRED: https://github.com/infovillasimius/py_amr2fred/tree/main/py_amr2fred
+Khafre repository: https://github.com/heideggerian-ai-v5/khafre
