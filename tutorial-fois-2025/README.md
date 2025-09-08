@@ -14,3 +14,7 @@ This tutorial demonstrates knowledge enrichment of the Khafre pipeline using RDF
 - `tutorial-fois-2025-v2.ipynb` - Main tutorial notebook
 - `setup_colab.py` - Automatic setup script for Colab
 - `event_frames/` - Sample data (TTL and image files)
+
+## Useful Resources
+
+Py_AMR2FRED: https://github.com/infovillasimius/py_amr2fred/tree/main/py_amr2fred
